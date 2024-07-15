@@ -1,4 +1,4 @@
-package com.enviro.assessment;
+package com.enviro.assessment.grad001.charlesmoswane;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

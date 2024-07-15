@@ -1,4 +1,4 @@
-package com.enviro.assessment;
+package com.enviro.assessment.grad001.charlesmoswane;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
