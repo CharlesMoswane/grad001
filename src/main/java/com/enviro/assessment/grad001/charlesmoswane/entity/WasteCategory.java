@@ -1,23 +1,23 @@
-package com.enviro.assessment.grad001.charlesmoswane.dao;
+package com.enviro.assessment.grad001.charlesmoswane.entity;
 
 import lombok.Data;
 
 @Data
-public class DisposalGuideline {
+public class WasteCategory {
     private int id;
     private String name;
     private String description;
 
-    public DisposalGuideline() {
+    public WasteCategory() {
     }
 
-    public DisposalGuideline(int id, String name, String description) {
+    public WasteCategory(int id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    public DisposalGuideline(String name, String description) {
+    public WasteCategory(String name, String description) {
         this.name = name;
         this.description = description;
     }
