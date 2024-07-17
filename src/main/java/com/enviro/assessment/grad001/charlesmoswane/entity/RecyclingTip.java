@@ -3,21 +3,21 @@ package com.enviro.assessment.grad001.charlesmoswane.entity;
 import lombok.Data;
 
 @Data
-public class RecylingTip {
+public class RecyclingTip {
     private int id;
     private String name;
     private String description;
 
-    public RecylingTip() {
+    public RecyclingTip() {
     }
 
-    public RecylingTip(int id, String name, String description) {
+    public RecyclingTip(int id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    public RecylingTip(String name, String description) {
+    public RecyclingTip(String name, String description) {
         this.name = name;
         this.description = description;
     }
