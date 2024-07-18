@@ -4,6 +4,6 @@ import com.enviro.assessment.grad001.charlesmoswane.entity.DisposalGuideline;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource(collectionResourceRel = "disposalGuidelines", path = "disposalGuidelines")
+@RepositoryRestResource(collectionResourceRel = "disposalGuidelines", path = "disposal-guidelines")
 public interface DisposalGuidelineRepository extends JpaRepository<DisposalGuideline, Integer> {
 }
